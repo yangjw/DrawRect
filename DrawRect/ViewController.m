@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "DrawText.h"
 
 @interface ViewController ()
+{
+	DrawText *drawText;
+}
 
 @end
 
@@ -17,7 +21,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	self.view.backgroundColor = [UIColor whiteColor];
 	// Do any additional setup after loading the view, typically from a nib.
+	drawText = [[DrawText alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	[self.view addSubview:drawText];
+
 }
 
 - (void)didReceiveMemoryWarning

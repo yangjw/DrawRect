@@ -18,6 +18,7 @@
 		9370F137174C9AF100B10AF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9370F136174C9AF100B10AF0 /* Default-568h@2x.png */; };
 		9370F13A174C9AF100B10AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9370F139174C9AF100B10AF0 /* ViewController.m */; };
 		9370F13D174C9AF100B10AF0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9370F13B174C9AF100B10AF0 /* ViewController.xib */; };
+		9370F145174C9B4B00B10AF0 /* DrawText.m in Sources */ = {isa = PBXBuildFile; fileRef = 9370F144174C9B4B00B10AF0 /* DrawText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		9370F138174C9AF100B10AF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9370F139174C9AF100B10AF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9370F13C174C9AF100B10AF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9370F143174C9B4B00B10AF0 /* DrawText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawText.h; sourceTree = "<group>"; };
+		9370F144174C9B4B00B10AF0 /* DrawText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		9370F114174C9AF000B10AF0 = {
 			isa = PBXGroup;
 			children = (
+				9370F143174C9B4B00B10AF0 /* DrawText.h */,
+				9370F144174C9B4B00B10AF0 /* DrawText.m */,
 				9370F126174C9AF000B10AF0 /* DrawRect */,
 				9370F11F174C9AF000B10AF0 /* Frameworks */,
 				9370F11E174C9AF000B10AF0 /* Products */,
@@ -176,6 +181,7 @@
 				9370F12D174C9AF000B10AF0 /* main.m in Sources */,
 				9370F131174C9AF000B10AF0 /* AppDelegate.m in Sources */,
 				9370F13A174C9AF100B10AF0 /* ViewController.m in Sources */,
+				9370F145174C9B4B00B10AF0 /* DrawText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
